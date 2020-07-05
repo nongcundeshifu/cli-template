@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "esnext",
+            "es2017",
+            "esnext.array",
+            "dom",
+            "es2015.iterable"
+        ],
+        "module": "es2015",
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "./bin",
+        "strict": true,
+        "noImplicitAny": true,
+        //定义类型定义文件的根目录
+        "esModuleInterop": true,
+        // 引入辅助函数集
+        "importHelpers": true,
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./tests/**/*.ts"
+    ],
+    "exclude": [
+        "./bin",
+        "./node_modules"
+    ]
+}
